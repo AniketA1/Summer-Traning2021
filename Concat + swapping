@@ -1,14 +1,6 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "9edaa416",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import cv2\n",
-    "import numpy as np"
+
+    import cv2
+    import numpy as np
    ]
   },
   {
