@@ -24,8 +24,6 @@ def get_vehicle_info(number):
 
 p = get_vehicle_info(text)
 
-p = get_vehicle_info(text)
-
 s="DESCRIPTION: "+str(p['Description'])+"\n"+"CAR COMPANY: "+str(p['CarMake']['CurrentTextValue'])+"\n"+"CAR MODEL: "+str(p['CarModel']['CurrentTextValue'])+"\n"+"FUEL TYPE: "+str(p['FuelType']['CurrentTextValue'])+"\n"+"ENGINE SIZE: "+str(p['EngineSize']['CurrentTextValue'])+"\n"+"NUMBER OF SEATS: "+str(p['NumberOfSeats']['CurrentTextValue'])+"\n"+"REGISTRATION YEAR: "+str(p['RegistrationYear'])+"\n"+"REGISTRATION DATE: "+str(p['RegistrationDate'])+"\n"+"VEHICLE IDENTIFICATION NUMBER: "+str(p['VechileIdentificationNumber'])+"\n"+"ENGINE NUMBER: "+str(p['EngineNumber'])+"\n"+"VEHICLE TYPE: "+str(p['VehicleType'])+"\n"+"LOCATION: "+str(p['Location'])
 print(s)
 
